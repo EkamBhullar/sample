@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, fireEvent } from '@testing-library/react';
-import Button from './button.js';
+import Button from '../button.js';
 
 test('renders button with correct text', () => {
   const { getByText } = render(<Button />);
